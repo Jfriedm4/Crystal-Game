@@ -1,0 +1,59 @@
+body{
+  background-image: url("../images/game/caveBackground.jpg");
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  word-spacing: 25px;
+  letter-spacing: 15px;
+}
+
+.title {
+  background-color: transparent;
+  font-size: 40px;
+  text-align: center;
+}
+
+.stats {
+  background-color: transparent;
+  word-spacing: 20px;
+}
+
+.content {
+  margin-bottom: 5px;
+}
+
+.scores {
+  font-size: 25px;
+}
+
+.win-loss {
+  font-size: 20px;
+}
+
+.btn-secondary {
+  margin-top: 10%;
+}
+
+#engrams {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+
+.engram-image {
+  margin-right: 5%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  height: 5px;
+  width: 100%;
+}
+
+.copyright {
+  color: #white;
+  font-size: 14px;
+  opacity: .7;
+  text-align: center;
+}

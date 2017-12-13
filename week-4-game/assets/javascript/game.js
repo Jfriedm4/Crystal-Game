@@ -10,6 +10,8 @@ $(function(){
   var numberOptions = [13, 7, 5, 2];
   var imageOptions = ["assets/images/game/exoticEngram.png", "assets/images/game/legendaryEngram.png", "assets/images/game/rareEngram.png", "assets/images/game/uncommonEngram.png"];
 
+  // var winOptions =["assets/images/game/win/gjallarhorn.png", "assets/images/game/win/gjallarhorn.png", "assets/images/game/win/gjallarhorn.png"];
+
   // reset #targetNumber function
   function resetTargetNumber() {
     var targetNumber = Math.floor(Math.random() * 73) + 27;

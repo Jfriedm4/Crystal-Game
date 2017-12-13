@@ -10,8 +10,6 @@ $(function(){
   var numberOptions = [13, 7, 5, 2];
   var imageOptions = ["assets/images/game/exoticEngram.png", "assets/images/game/legendaryEngram.png", "assets/images/game/rareEngram.png", "assets/images/game/uncommonEngram.png"];
 
-  var winOptions = ["assets/images/game/win/gjallarhorn.jpg", "assets/images/game/win/lastWord.jpg", "assets/images/game/win/vexMythoclast.jpg"];
-
   // reset #targetNumber function
   function resetTargetNumber() {
     var targetNumber = Math.floor(Math.random() * 73) + 27;
@@ -52,7 +50,6 @@ $(function(){
     engramValue = parseInt(engramValue);
     counter += engramValue;
     $("#currentScore").html(counter);
-    console.log(counter);
 
     if (counter === targetNumber) {
       win();

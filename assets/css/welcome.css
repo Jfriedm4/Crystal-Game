@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/welcome/destinyBackground.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
   font-family: 'Montserrat', sans-serif;
   color: white;
   word-spacing: 25px;
@@ -21,7 +22,7 @@ body {
 }
 
 .traveler:hover {
-	-webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(300, 231, 255, 0.8));
 }
 
 .stuff {
